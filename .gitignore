@@ -1,0 +1,52 @@
+# Large model files
+*.h5
+*.weights.h5
+*.pt
+*.keras
+
+# Video datasets
+Violence/
+Violence_2/
+NonViolence/
+NonViolence_2/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output files
+*.mp4
+output.txt
+output/
+
+# Images/plots
+*.png
+confusion_matrix*.png
+training_curves.png
+output.png
